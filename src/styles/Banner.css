@@ -1,0 +1,43 @@
+.banner
+{
+    position: relative;
+    height: 600px;
+    color: white;
+    object-fit: contain;
+    background-size: cover;
+   background-image:url("https://cdn.pixabay.com/photo/2018/01/09/11/04/dog-3071334_960_720.jpg") ;
+   background-position: "center center";
+   margin-bottom: 10px;
+  
+   
+}
+.banner-contents
+{
+    position: absolute;
+    bottom: 0px;
+    padding-top: 140px;
+    margin-left:200px;
+    text-align: center;
+ 
+   
+}
+.banner-title{
+    font-size: 2rem;
+    font-weight: 800;
+   
+    text-align: center;
+  
+  
+}
+@media (max-width:1300px) {
+    .banner-contents{
+        bottom :-88px;
+        margin:100px
+    }
+}
+@media (max-width:900px) {
+    .banner-contents{
+        bottom :10px;
+        margin:10px
+    }
+}

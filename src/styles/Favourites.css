@@ -1,0 +1,11 @@
+.favourites
+{
+    margin-top: 70px;
+    background-color: rgb(235, 224, 253);
+    min-height: 100vh;
+}
+.favourites h1{
+   
+    text-align: center;
+    padding: 10px;
+}
